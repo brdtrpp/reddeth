@@ -29,7 +29,9 @@ class SignUpForm extends Component {
       <form className="pure-form pure-form-stacked" onSubmit={this.handleSubmit.bind(this)}>
         <fieldset>
           <label htmlFor="name">Name</label>
+
           <input id="name" type="text" value={this.state.name} onChange={this.onInputChange.bind(this)} placeholder="Name" />
+
           <span className="pure-form-message">This is a required field.</span>
 
           <br />

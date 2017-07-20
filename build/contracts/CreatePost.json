@@ -1,0 +1,68 @@
+{
+  "contract_name": "CreatePost",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "createAPost",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "value",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "title",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_from",
+          "type": "address"
+        }
+      ],
+      "name": "CreatedPost",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b61010d8061001c6000396000f300606060405263ffffffff60e060020a6000350416631e754d72811460345780633fa4f2451460435780634a79d50c146062575bfe5b3415603b57fe5b60416081565b005b3415604a57fe5b605060d5565b60408051918252519081900360200190f35b3415606957fe5b605060db565b60408051918252519081900360200190f35b60028054600160a060020a033316600160a060020a0319909116811790915560408051918252517f97afd64bc259d339e9e6d13ffe886923c4b3296ce33dfbbcd2e2287b2ae3c10e9181900360200190a15b565b60005481565b600154815600a165627a7a7230582079cb22cec5b9474ece9706ec893b1bc69dc9a12a368b700e857a824ea0b686db0029",
+  "networks": {
+    "1500389676105": {
+      "events": {},
+      "links": {},
+      "address": "0xac9ed6052a4f7645a4eda101295fee1887bb0184",
+      "updated_at": 1500402586573
+    },
+    "1500403697426": {
+      "events": {},
+      "links": {},
+      "address": "0xf835c11da2ee422068e975f28cbc46902cf43419",
+      "updated_at": 1500403840645
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1500568404302
+}
