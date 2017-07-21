@@ -22,8 +22,13 @@ export function createPost(title){
 
         post.deployed().then(function(instance) {
           postInstance = instance
-          console.log(postInstance)
           postInstance.createAPost({from:coinbase})
+          .then(function(result) {
+            console.log(result)
+          })
+          .catch(function(result) {
+            console.error(result);
+          })
         })
       })
     }
