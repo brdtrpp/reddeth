@@ -10,8 +10,6 @@ export function createPost(title){
     return function(dispatch){
       const post = contract(CreatePostContract)
       post.setProvider(web3.currentProvider)
-      // console.log(post)
-      // post.createAPost(web3)
 
       var postInstance
 

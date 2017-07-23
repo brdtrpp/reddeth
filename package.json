@@ -59,7 +59,7 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "start": "gnome-terminal -x node scripts/start.js",
+    "start": "gnome-terminal -x testrpc -s toaster && gnome-terminal -x node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "testrpc": "gnome-terminal -x testrpc -s toaster"
